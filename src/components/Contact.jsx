@@ -8,8 +8,8 @@ const SOCIALS = [
   { icon: <FiMail />,     label: "Email",    value: "rayappanr76@gmail.com",        href: "mailto:rayappanr76@gmail.com" },
   { icon: <FiPhone />,    label: "Phone",    value: "+91 7904461809",               href: "tel:+917904461809" },
   { icon: <FiMapPin />,   label: "Location", value: "Tuticorin, Tamil Nadu, India", href: "#" },
-  { icon: <FiGithub />,   label: "GitHub",   value: "github.com/rayappan",          href: "https://github.com/rayappan" },
-  { icon: <FiLinkedin />, label: "LinkedIn", value: "linkedin.com/in/rayappan",     href: "https://linkedin.com/in/rayappan" },
+  { icon: <FiGithub />,   label: "GitHub",   value: "github.com/rayappan",          href: "https://github.com/rayappan007" },
+  { icon: <FiLinkedin />, label: "LinkedIn", value: "linkedin.com/in/rayappan",     href: "https://www.linkedin.com/in/rayappan-m-17735334b/" },
 ];
 
 export default function Contact() {
@@ -93,11 +93,11 @@ export default function Contact() {
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label>Your Name</label>
-                <input name="name" value={form.name} onChange={handleChange} placeholder="John Doe" required />
+                <input name="name" value={form.name} onChange={handleChange} placeholder="Rayappan" required />
               </div>
               <div className="form-group">
                 <label>Email Address</label>
-                <input name="email" type="email" value={form.email} onChange={handleChange} placeholder="john@example.com" required />
+                <input name="email" type="email" value={form.email} onChange={handleChange} placeholder="Rayappan@example.com" required />
               </div>
               <div className="form-group">
                 <label>Message</label>
